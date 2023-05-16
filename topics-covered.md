@@ -1,0 +1,18 @@
+- [x] Storing JSX values in react state
+- [x] storing JSX values in variables
+- [x] Updating local state when prop changes with useEffect
+- [x] useEffect(() => setState(prop), [prop]); // use redux or data-down, change up approach
+- [x] Using prop destructured value in useEffect dependency array
+- [x] Huge component trees
+- [x] Components should not be tightly coupled, they should be independently re-usable
+- [x] Separation of concerns (tightly coupled components, redux implementation)
+- [x] Single Responsibility
+- [x] Nested components
+- [x] In JSX loops, using item index or random numbers as the key of the item.
+- [x] Contradicting states, e.g. isError, isLoading
+- [x] Abusive states, when the data can be derived from existing states
+- [x] Memoize heavy calculations
+- [x] Never define constants inside the components, it can cause performance issue (sometimes visible lags)
+- [x] Storing everything in redux, connecting form inputs directly to redux will have heavy performance issue. Only use redux for truly global states
+- [x] User Propfile page: do not reset all the states in a useEffect when the userId changes. Source: react docs beta
+- [x] Handle race conditions
